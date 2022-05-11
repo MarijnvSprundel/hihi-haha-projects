@@ -1,0 +1,25 @@
+/* Tunables for customizing the cells and more, can these variables be changed with javascript? */
+:root{
+    --cell-border: 3px;
+    --cell-border-color: #838383;
+    --cell-body-color: #b6b6b6;
+    --cell-size: 25px;
+}
+
+.ms-grid{
+    display: grid;
+    background-color: var(--cell-border-color);
+    max-width: fit-content;
+    grid-gap: var(--cell-border);
+    border: var(--cell-border) solid var(--cell-border-color);
+    text-align: center;
+}
+.ms-grid *{
+    background-color: var(--cell-body-color);
+    width: var(--cell-size);
+    height: var(--cell-size);
+    line-height: var(--cell-size);
+}
+.uncovered{
+    background-color: #f3f3f3;
+}
