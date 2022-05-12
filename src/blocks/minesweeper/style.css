@@ -20,6 +20,34 @@
     height: var(--cell-size);
     line-height: var(--cell-size);
 }
+
+
 .uncovered{
     background-color: #f3f3f3;
+}
+
+/* Colors for all the different risks */
+.risk-1{
+    color: #009600;
+}
+.risk-2{
+    color: #ffa600;
+}
+.risk-3{
+    color: #d75a00;
+}
+.risk-4{
+    color: #f34100;
+}
+.risk-5{
+    color: #cb1c00;
+}
+.risk-6{
+    color: #a40000;
+}
+.risk-7{
+    color: #7c0000;
+}
+.risk-8{
+    color: #000000;
 }
